@@ -18,5 +18,5 @@ A Network application is any application running on one host and provides a comm
 for every framework their must be few pacakage manager
 
 
-npm init is used to avoid every time usase of npm install and to download all 20 dependencies.It creates package.json file with all dependecies.
+npm init is used to avoid every time usage of npm install and to download all 20 dependencies.It creates package.json file with all dependecies.
 when we delete node modules, we can create it again by simply using npm install, where itsearches for all packages required for a project from package.json file and create a node module directory.
