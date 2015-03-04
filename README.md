@@ -22,3 +22,31 @@ These code are called packages or modules.Every pacakge  contain package.json wh
 npm init is used to avoid every time usage of npm install and to download all 20 dependencies.It creates package.json file with all dependecies.Dependecies are nothing but the packages which you have installed. dependencies can be added manual by inserting them in the directory with "*", so as to download the latest version.npm outdated command gives u the list of outdated packages,with their latest version. npm update command will update the packages.
 npm uninstall package name will uninstall the package from the node module, but when u use ls command it shows unmet error with the uninstall package name,which indicates that it still the package exists in package.json file and is needed for it usage. to avoid this use npm install packagename --save command.If this is done in viceversa it shows extraneous error, which mean it doesnt need that package.
 when we delete node modules, we can create it again by simply using npm install, where itsearches for all packages required for a project from package.json file and create a node module directory.
+
+
+GRUNT:
+It is used to perform repitative task like compiling,minification etc.Simply used for automation.
+It is created using npm install -g grunt-cli(command line interface). npm install grunt --save-dev is used to create grunt as a dependency in package.json file.
+plugins are used which are generated from npm module database.grunt-contrib-uglify
+grunt-contrib-qunit
+grunt-contrib-concat
+grunt-contrib-jshint
+grunt-contrib-watch, these are few offical plugins.
+it contains mainly two files gruntfile and package.json file. Gruntfile consist of 
+The "wrapper" function, example : module.exports = function(grunt) {
+}
+
+Project and task configuration, example: grunt.initConfig({
+  pkg: grunt.file.readJSON('package.json'),
+  uglify: {
+    options: {
+      banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+    },
+    build: {
+      src: 'src/<%= pkg.name %>.js',
+      dest: 'build/<%= pkg.name %>.min.js'
+    }
+  }
+});
+Loading Grunt plugins and tasks, example: grunt.loadNpmTasks('grunt-contrib-uglify');
+Custom tasks, example: grunt.registerTask('default', ['uglify']); default task
