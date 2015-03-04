@@ -17,6 +17,7 @@ scalability stand for an application which can be used even after their is a cha
 A Network application is any application running on one host and provides a communication to another application running on a different host, the application may use an existing application layer protocols such as: HTTP(e.g. the Browser and web server), SMTP(e.g. the email-client).
 for every framework their must be few pacakage manager
 
-
+npm is a node pacakge manager complety written in javascript for default nodejs.It is also package manager to grunt,gulp,browserfiy etc.It is used by javascript developers to share and reuse the code,and is very easy to update the code.
+These code are called packages or modules.Every pacakge  contain package.json which contain some embedded data about the  package.
 npm init is used to avoid every time usage of npm install and to download all 20 dependencies.It creates package.json file with all dependecies.
 when we delete node modules, we can create it again by simply using npm install, where itsearches for all packages required for a project from package.json file and create a node module directory.
