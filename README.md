@@ -38,7 +38,9 @@ it contains mainly two files gruntfile and package.json file. Gruntfile consist 
 The "wrapper" function, example : module.exports = function(grunt) {
 }
 
-Project and task configuration, example: grunt.initConfig({
+Project and task configuration, example: 
+```javascript
+grunt.initConfig({
   pkg: grunt.file.readJSON('package.json'),
   uglify: {
     options: {
@@ -50,6 +52,7 @@ Project and task configuration, example: grunt.initConfig({
     }
   }
 });
+```
 Loading Grunt plugins and tasks, example: grunt.loadNpmTasks('grunt-contrib-uglify');
 Custom tasks, example: grunt.registerTask('default', ['uglify']); default task
 
