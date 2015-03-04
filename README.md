@@ -1,6 +1,7 @@
 # Definations
 NODE.js:
 its is a platform build on chrome's javascript runtime for easily buliding network applications.
+```javascript
 example.js
 var http = require('http');
 
@@ -10,6 +11,7 @@ http.createServer(function (request, response) {
 }).listen(8124);
 
 console.log('Server running at http://127.0.0.1:8124/');
+```
 output : Hello World
 
 nodejs is used to build scalable network application.
