@@ -16,8 +16,11 @@ console.log('Server running at http://127.0.0.1:8124/');
 #####output : Hello World
 
 Nodejs is used to build scalable network application.
+
 Scalability stand for an application which can be used even after their is a change in its size volume etc.
+
 A Network application is any application running on one host and provides a communication to another application running on a different host, the application may use an existing application layer protocols such as: **HTTP(e.g. the Browser and web server), SMTP(e.g. the email-client)**.
+
 For every framework their must be few pacakage managers.
 
 ###NPM
