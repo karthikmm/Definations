@@ -24,7 +24,7 @@ A Network application is any application running on one host and provides a comm
 For every framework their must be few pacakage managers.
 
 ###NPM
-===========================
+--------------------------------
 npm is a node pacakge manager complety written in javascript for default nodejs.It is also package manager to grunt,gulp,browserfiy etc.It is used by javascript developers to share and reuse the code,and is very easy to update the code.
 
 These code are called packages or modules.Every pacakge  contain package.json which contain some embedded data about the  package.node-module is a directory.
