@@ -33,24 +33,24 @@ npm init is used to avoid every time usage of npm install and to download all 20
 
 Dependencies are nothing but the packages which you have installed. Dependencies can be added manual by inserting them in the directory with "*", so as to download the latest version.
 ```sh
-npm outdated 
+$ npm outdated 
 ```
 command gives u the list of outdated packages,with their latest version.
 ```sh
-npm update 
+$ npm update 
 ```
 command will update the packages.
 ```sh
-npm uninstall <package name>
+$ npm uninstall <package name>
 ```
 will uninstall the package from the node module, but when u use ls command it shows unmet error with the uninstall package name,which indicates that it still the package exists in package.json file and is needed for it usage. To avoid this use 
 ```sh
-npm install packagename --save command
+$ npm install packagename --save command
 ```
 If this is done in viceversa it shows extraneous error, which mean it doesnt need that package.
 when we delete node modules, we can create it again by simply using 
 ```sh
-npm install
+$ npm install
 ```
 where itsearches for all packages required for a project from package.json file and create a node module directory.
 
@@ -61,11 +61,11 @@ It is used to perform repitative task like compiling,minification etc.Simply use
 
 It is created using
 ```sh
-npm install -g grunt-cli
+$ npm install -g grunt-cli
 ```
 (command line interface)
 ```sh
-npm install grunt --save-dev 
+$ npm install grunt --save-dev 
 ```
 Is used to create grunt as a dependency in package.json file.
 
