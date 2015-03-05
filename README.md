@@ -128,3 +128,12 @@ There are two versions in webpack ,static and beta. -beta is used toinstall it w
 -----------------
 It consists of three tools
 **yo, bower , grunt or gulp**.
+
+**yo** is a scaffolding tool that offers an ecosystem of framework-specific scaffolds, called generators, that can be used to perform some of the tedious tasks mentioned earlier.
+*Yeoman* also works with other tools for improving your productivity:
+
+**Grunt** is used to build, preview, and test your project, thanks to help from tasks curated by the Yeoman team and grunt-contrib.
+
+**Gulp** is an alternative to GruntJS that favors code over configuration.
+
+bower is used for dependency management, so that you no longer have to manually download your front-end libraries.
