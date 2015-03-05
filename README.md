@@ -45,7 +45,7 @@ $ npm uninstall <package name>
 ```
 will uninstall the package from the node module, but when u use ls command it shows unmet error with the uninstall package name,which indicates that it still the package exists in package.json file and is needed for it usage. To avoid this use 
 ```sh
-$ npm install packagename --save command
+$ npm install packagename --save 
 ```
 If this is done in viceversa it shows extraneous error, which mean it doesnt need that package.
 when we delete node modules, we can create it again by simply using 
