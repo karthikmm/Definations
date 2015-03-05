@@ -120,7 +120,7 @@ Gulp does essentially the same thing as Grunt but with a more modern interface.
 
 ###WebPack:
 ----------------------
-It is a **module Bundler**.webpack takes modules with dependencies and generates static assets representing those modulues.it is mainly used for codespliting.
+It is a **module Bundler**. Webpack takes modules with dependencies and generates static assets representing those modulues.it is mainly used for codespliting.
 There are two versions in webpack ,static and beta. -beta is used toinstall it which may contain experimental features.
 
 
