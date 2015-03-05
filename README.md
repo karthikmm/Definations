@@ -1,6 +1,7 @@
 # Definitions
 
 ##NODE.js
+---------------------
 Its is a platform build on chrome's javascript runtime for easily buliding network applications.
 ```javascript
 example.js
@@ -56,7 +57,7 @@ where itsearches for all packages required for a project from package.json file 
 
 
 ###GRUNT:
-========================================
+------------------
 It is used to perform repitative task like compiling,minification etc.Simply used for automation.
 
 It is created using
@@ -114,17 +115,17 @@ grunt.registerTask('default', ['uglify']);
 default task
 
 ###GULP:
-=============
+--------------------
 It is similar as Grunt, it has also many plugins defined.
 Gulp does essentially the same thing as Grunt but with a more modern interface.
 
 ###WebPack:
-================
+----------------------
 It is a **module Bundler**.webpack takes modules with dependencies and generates static assets representing those modulues.it is mainly used for codespliting.
 There are two versions in webpack ,static and beta. -beta is used toinstall it which may contain experimental features.
 
 
 ###yoeman:
-=====================
+-----------------
 It consists of three tools
 **yo, bower , grunt or gulp**.
