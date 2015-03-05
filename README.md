@@ -31,15 +31,23 @@ when we delete node modules, we can create it again by simply using npm install,
 ###GRUNT:
 It is used to perform repitative task like compiling,minification etc.Simply used for automation.
 It is created using npm install -g grunt-cli(command line interface). npm install grunt --save-dev is used to create grunt as a dependency in package.json file.
-plugins are used which are generated from npm module database.grunt-contrib-uglify
+plugins are used which are generated from npm module
+```
+database.grunt-contrib-uglify
 grunt-contrib-qunit
 grunt-contrib-concat
 grunt-contrib-jshint
-grunt-contrib-watch, these are few offical plugins.
-it contains mainly two files gruntfile and package.json file. Gruntfile consist of 
-The "wrapper" function, example : module.exports = function(grunt) {
+grunt-contrib-watch
+```
+these are few offical plugins.
+it contains mainly two files **gruntfile and package.json file**. 
+Gruntfile consist of 
+The "wrapper" function, 
+Example :
+``` 
+module.exports = function(grunt) {
 }
-
+```
 Project and task configuration, example: 
 ```javascript
 grunt.initConfig({
@@ -60,17 +68,22 @@ Example:
 ```
 grunt.loadNpmTasks('grunt-contrib-uglify');
 ```
-Custom tasks, example: grunt.registerTask('default', ['uglify']); default task
+Custom tasks,
+Example:
+```
+grunt.registerTask('default', ['uglify']); 
+```
+default task
 
 ###GULP:
 It is similar as Grunt, it has also many plugins defined.
 Gulp does essentially the same thing as Grunt but with a more modern interface.
 
 ###WebPack:
-It is a module Bundler.webpack takes modules with dependencies and generates static assets representing those modulues.it is mainly used for codespliting.
+It is a **module Bundler**.webpack takes modules with dependencies and generates static assets representing those modulues.it is mainly used for codespliting.
 There are two versions in webpack ,static and beta. -beta is used toinstall it which may contain experimental features.
 
 
 ###yoeman:
-*It consists of three tools
-yo, bower , grunt or gulp.
+It consists of three tools
+**yo, bower , grunt or gulp**.
